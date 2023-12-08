@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+}
+#leftCanvas,
+#rightCanvas,
+#gameCanvas {
+  max-height: 70%; /* Set the maximum height to 79% of the viewport height */
+}
+canvas {
+  position: absolute;
+  bottom: 0;
+  overflow:visible;
+}
+
+
+#leftCanvas {
+  left: 0;
+  width: 35vw;
+}
+
+#leftText {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: white; /* Change text color to black */
+  font-size: 20px;
+}
+
+#rightCanvas {
+  right: 0;
+  width: 35vw;
+}
+#rightText {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white; /* Change text color to black */
+  font-size: 20px;
+}
+
+#gameCanvas {
+  margin: auto;
+}
