@@ -28,8 +28,8 @@ body {
     text-align: center;
     top:15vh;
     left: 20%;
-    height: 80vh;
-    padding: 2rem;
+    height: 90vh;
+    padding-bottom: 50px;
     z-index: 100;
     
 }
@@ -53,6 +53,7 @@ main {
     outline: none;
     border-radius: 10px;
     max-height: 79vh;
+    margin-bottom: 100px;
 }
 
 #score-container {
