@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/404.css">
+    <link rel="stylesheet" href="./css/c.css">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <title>Tetris by Jeff de Lara</title>
+</head>
+<body>
+      <h1><b>4O4 NOT FOUND </b></h1>
+  
+     <div class=" anime">
+      <main>
+  
+        <canvas id="leftCanvas"></canvas>
+        
+        <div id="leftText" id="p1"style="margin-top: 500px;">Au rythme des marées croissantes, le changement climatique murmure un rappel sévère : nos actions façonnent les rivages de demain.</div>
+        
+        <canvas id="rightCanvas"></canvas>
+        <div id="rightText" id="p2" style="margin-top: 500px;">À mesure que les niveaux de la mer s'élèvent, nos efforts pour endiguer le changement climatique doivent également prendre de l'ampleur. Chaque goutte d'engagement crée des ondes de changement dans l'immensité océanique du futur de notre planète.</div>
+        
+        <canvas id="gameCanvas" ></canvas>
+        
+        <script src="j.js">
+       
+      </script>
+      </main>
+     </div>
+        <div class="container">
+            <div>
+                <canvas tabindex="1" id="canvas"></canvas>
+                <div id="canvas-container"></div>
+                <div id ='felicite'></div>
+            </div>
+           
+            
+              <!-- Fenêtre modale -->
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- En-tête de la fenêtre modale -->
+                    <div class="modal-header">
+                      <h5 class="modal-title">Titre de la fenêtre modale</h5>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- Corps de la fenêtre modale -->
+                    <div class="modal-body">
+                      <p>Bravo tu perdu ton tamps.</p>
+                    </div>
+            
+                    <!-- Pied de la fenêtre modale -->
+                    <div class="modal-footer">
+                      <button type="button" onclick="refreshPage()" class="btn btn-primary">Restart</button>
+                      <button type="button" class="btn btn-primary">Home</button>
+                      <button type="button" onclick="captureAndDownload()" class="btn btn-primary">Share</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+            
+            <div id="ui">
+                <!-- <h1 id="logo">TETRIS</h1> -->
+                <div id="score-container">
+                    <h2>Score <span id="score">0</span></h2>
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <img src="path/to/congratulations-image.jpg" alt="Congratulations Image">
+                            <p>Congratulations! You scored 404!</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4>Instructions</h4>
+                    <ul>
+                        <li><code><i class='bx bxs-left-arrow-square'></i> <i class='bx bxs-down-arrow-square' ></i> <i class='bx bxs-right-arrow-square' ></i></code> to move</li>
+                        <li><code><i class='bx bxs-up-arrow-square'></i></code> instant drop</li>
+                        <li><code>SPACE</code> to rotate</li>
+                        <li><code>P</code> to pause</li>
+                    </ul>
+                  
+                    <div id="musicbtn" class="btn"> <button  onclick="toggleSound()"></i> [M]usic <span class="musicstate">OFF</span></button></div>
+                    <div id="shadowbtn" class="btn"><i class='bx bx-crosshair'></i> [S] <span class="shadowstate">OFF</span></div>
+                    
+                </div>
+            </div>
+        </div>
+    
+
+    <script src="js/tile.js"></script>
+    <script src="js/piece.js"></script>
+    <script src="js/spiece.js"></script>
+    <script src="js/zpiece.js"></script>
+    <script src="js/ipiece.js"></script>
+    <script src="js/squarepiece.js"></script>
+    <script src="js/tpiece.js"></script>
+    <script src="js/lpiece.js"></script>
+    <script src="js/jpiece.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/audio.js"></script>
+</body>
+</html>
+<script src="js/defi.js">
+   
+</script>
+    <script src="js/main.js"></script>
+</body>
+</html>

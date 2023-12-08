@@ -1,8 +1,12 @@
 
-body {
+.container.anime {
   margin: 0;
   overflow: hidden;
   display: flex;
+  /* make it behind everything */
+  z-index: -1;
+  
+
 }
 #leftCanvas,
 #rightCanvas,

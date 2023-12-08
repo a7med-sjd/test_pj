@@ -75,8 +75,8 @@ function animateSeaLevels() {
       const layer = wave.layers[j];
 
       wave.layers[j].phase += 0.8 * layer.speed; // Adjust the speed of the layer
-      seaLevel.left += 8* layer.speed; // Adjust the speed of the left sea level rise
-      seaLevel.right += 8 * layer.speed; // Adjust the speed of the right sea level rise
+      seaLevel.left += 0.8* layer.speed; // Adjust the speed of the left sea level rise
+      seaLevel.right += 0.8 * layer.speed; // Adjust the speed of the right sea level rise
 
       const canvasWidth = leftCanvas.width;
       const canvasHeight = leftCanvas.height;
@@ -96,8 +96,8 @@ function animateSeaLevels() {
       const layer = wave.layers[j];
 
       wave.layers[j].phase += 0.8 * layer.speed; // Adjust the speed of the layer
-      seaLevel.left += 8* layer.speed; // Adjust the speed of the left sea level rise
-      seaLevel.right += 8 * layer.speed; // Adjust the speed of the right sea level rise
+      seaLevel.left += 0.4* layer.speed; // Adjust the speed of the left sea level rise
+      seaLevel.right += 0.4 * layer.speed; // Adjust the speed of the right sea level rise
 
       const canvasWidth = rightCanvas.width;
       const canvasHeight = rightCanvas.height;
