@@ -6,7 +6,7 @@ class ZPiece extends Piece
         this.row = row;
         this.col = col; 
         this.type = type;
-        const color = '#12a4d9';
+        const color = '#438E20';
 
         this.tiles = [
             new Tile(this.row, this.col - 1, 2, color),

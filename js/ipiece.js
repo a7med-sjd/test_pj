@@ -5,7 +5,7 @@ class IPiece extends Piece {
         this.row = row;
         this.col = col; 
         this.type = type;
-        const color = '#12a4d9';
+        const color = '#5f3f31';
 
         this.tiles = [
             new Tile(this.row, this.col, 2, color),
