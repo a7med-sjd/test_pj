@@ -346,7 +346,7 @@ class Game {
         this.speed =  this.speed+ 10;
         const scoreSpan = document.getElementById('score');
         scoreSpan.textContent = this.score;
-        if (this.score === 404) {
+        if (this.score >=404) {
             var modal = document.getElementById('myModal');
 modal.style.display = 'block';
         }
